@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee|Lobster|Racing+Sans+One|Shrikhand|Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond|Slabo+27px');
+html,body{
+    height: 100%;
+}
+#title{
+    
+font-family: 'Bungee', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Racing Sans One', cursive;
+    font-size: 60px;
+    position: relative;
+    top: 50%;
+    margin-top: -100px;
+    text-align: center;
+}
+
+body{
+                 background-image: url(../assets/background.jpeg); 
+                 /* Background image is centered vertically and horizontally at all times */
+                  background-position: center center;
+
+                  /* Background image doesn't tile */
+                  background-repeat: no-repeat;
+
+                  /* Background image is fixed in the viewport so that it doesn't move when 
+                     the content's height is greater than the image's height */
+                  background-attachment: fixed;
+
+                  /* This is what makes the background image rescale based
+                     on the container's size */
+                  background-size: cover;
+
+                  /* Set a background color that will be displayed
+                     while the background image is loading */
+                  background-color: black;
+                    width: 100%;
+               }
+
+.bg-light {
+    background-color: #1113 !important
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color : #ffffff;
+    
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+     color : #ffffff;
+}
+
+
+.navbar-light .navbar-brand {
+    color : #ffffff;
+    
+}
+
+
+
+#content{
+    margin-top: 400px;
+    position: relative;
+
+    
+    text-align: center;
+}
+
+#content h1,p{
+    text-align: left;
+}
+
+#aboutus {
+    
+    
+   background-color: rgba(247,248,249,0.3);
+    margin-top: 400px;
+    position: relative;
+    height: 500px;
+    
+    
+    
+
+}
+
+#post {
+    
+    
+    background-color: rgba(247,248,249,0.3);
+    margin-top: 400px;
+    position: relative;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 1000px;
+    
+    
+
+}
+
+
+#aboutus h3{
+    font-family: 'Bungee', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Racing Sans One', cursive;
+}
+
+#post p,li{
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Slabo 27px', serif;
+}
+
+#post h2{
+     font-family: 'Cormorant Garamond', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Abril Fatface', cursive;
+}
+ 
+}
+footer{
+    
+    
+    
+    margin: 0 20px;
+    
+    color: black;
+    
+/*     background-color: #1113 !important*/
+    
+         
+    
+}
+
+
+/*
+.col-xs-12 img {
+   
+    display: inline;
+    margin: 10px;
+    border: solid 3px;
+    border-radius: 5px;
+}
+*/
+
+/*
+.col-lg-4 img {
+   
+    display: inline;
+    margin: 10px;
+    margin-left: 10px;
+    border: solid 3px;
+    border-radius: 5px;
+}
+*/
+
+
+
+
+.col-xs-12 .card {
+   
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    
+    
+
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+#image {
+	text-align:center;
+    margin: 10px;
+}
+
+
+
